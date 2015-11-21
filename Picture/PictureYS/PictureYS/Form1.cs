@@ -16,6 +16,9 @@ namespace PictureYS
             InitializeComponent();
         }
         public Bitmap MyImage;
+        public Graphics gImage;
+        //获取图像单个像素数据
+        Color pixel;
 
         private void but_Open_Click(object sender, EventArgs e)
         {
@@ -25,13 +28,28 @@ namespace PictureYS
                 string imageFile=openFileDialog1.FileName;
                 try
                 {
+                        //显示图像
                         picBox.SizeMode = PictureBoxSizeMode.StretchImage;
                         MyImage = new Bitmap(imageFile);
-                        picBox.Image=(Image)MyImage;
+                        picBox.Image=(Image)MyImage;                    
+
                 }
                 catch{}
 
             }
+        }
+
+        private void picBox_MouseMove(object sender, MouseEventArgs e)
+        {
+            label1.Text = e.Location.ToString();
+            //获取图像单个像素数据
+            try
+            {               
+                pixel = MyImage.GetPixel(e.Location.X, e.Location.Y);
+                label2.Text = pixel.ToString();
+            }
+            catch { }
+
         }
     }
 }
