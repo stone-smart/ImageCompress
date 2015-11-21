@@ -1,0 +1,7 @@
+G:\Project\20151121 ChenXin\Picture\PictureYS\PictureYS\bin\Debug\PictureYS.exe
+G:\Project\20151121 ChenXin\Picture\PictureYS\PictureYS\bin\Debug\PictureYS.pdb
+G:\Project\20151121 ChenXin\Picture\PictureYS\PictureYS\obj\x86\Debug\PictureYS.Form1.resources
+G:\Project\20151121 ChenXin\Picture\PictureYS\PictureYS\obj\x86\Debug\PictureYS.Properties.Resources.resources
+G:\Project\20151121 ChenXin\Picture\PictureYS\PictureYS\obj\x86\Debug\PictureYS.csproj.GenerateResource.Cache
+G:\Project\20151121 ChenXin\Picture\PictureYS\PictureYS\obj\x86\Debug\PictureYS.exe
+G:\Project\20151121 ChenXin\Picture\PictureYS\PictureYS\obj\x86\Debug\PictureYS.pdb
