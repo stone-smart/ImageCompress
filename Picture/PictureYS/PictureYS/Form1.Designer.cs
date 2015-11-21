@@ -38,7 +38,7 @@
             // 
             this.picBox.Location = new System.Drawing.Point(21, 24);
             this.picBox.Name = "picBox";
-            this.picBox.Size = new System.Drawing.Size(351, 303);
+            this.picBox.Size = new System.Drawing.Size(433, 314);
             this.picBox.TabIndex = 0;
             this.picBox.TabStop = false;
             // 

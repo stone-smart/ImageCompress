@@ -19,7 +19,7 @@ namespace PictureYS
 
         private void but_Open_Click(object sender, EventArgs e)
         {
-            //openFileDialog1.Filter=
+            openFileDialog1.Filter = "Image Files(*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files (*.*)|*.*";
             if(openFileDialog1.ShowDialog()==DialogResult.OK)
             {
                 string imageFile=openFileDialog1.FileName;
